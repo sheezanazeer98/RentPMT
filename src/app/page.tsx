@@ -54,7 +54,6 @@ const jsonLd = {
                   height={56}
                   className="h-15 w-auto object-contain"
           priority
-                  className="h-14 w-auto object-contain"
                 />
               </div>
           
