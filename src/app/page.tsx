@@ -47,13 +47,14 @@ const jsonLd = {
           <div className="flex h-24 items-center">
             <div className="flex items-center gap-4">
               <div className="relative">
-                <Image
-                  src="/logo.png"
+        <Image
+                  src="/logo.svg"
                   alt="RentPMT Logo"
                   width={56}
                   height={56}
-                  priority
-                  className="h-14 w-34"
+                  className="h-15 w-auto object-contain"
+          priority
+                  className="h-14 w-auto object-contain"
                 />
               </div>
           
@@ -78,7 +79,7 @@ const jsonLd = {
               <span className="block bg-gradient-to-r from-blue-600 to-slate-700 bg-clip-text text-transparent">
                 Processing
               </span>
-            </h1>
+          </h1>
             <p className="mx-auto mt-8 max-w-2xl text-xl leading-8 text-slate-600 sm:text-2xl">
               Secure, verified payment gateway ensuring integrity in rental transactions for landlords and tenants
             </p>
@@ -280,11 +281,11 @@ const jsonLd = {
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/logo.svg"
                 alt="RentPMT Logo"
                 width={40}
                 height={40}
-                className="h-15 w-30"
+                className="h-15 w-auto object-contain"
               />
              
             </div>
