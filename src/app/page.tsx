@@ -318,10 +318,10 @@ const jsonLd = {
                     className="font-semibold text-green-700 hover:text-green-800 underline"
                   >
                     PredictableProperty.com
-                  </a>{" "}
+            </a>{" "}
                   as an official RentPMT payment partner.
-                </p>
-              </div>
+          </p>
+        </div>
 
               {/* CTA Buttons - Compact */}
               <div className="flex flex-wrap gap-2">
@@ -338,8 +338,8 @@ const jsonLd = {
                 </a>
                 <a
                   href="https://predictableproperty.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-lg border-2 border-green-600 bg-white px-4 py-2 text-xs font-semibold text-green-700 shadow-sm hover:bg-green-50 transition-colors"
                 >
                   Visit Website
@@ -419,6 +419,38 @@ const jsonLd = {
         </div>
       </section>
 
+      {/* Email Query Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-green-50/50 to-white">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="  p-8 sm:p-10 ">
+            <div className="text-center mb-6">
+              <div className="mb-4 inline-flex items-center justify-center h-16 w-16 rounded-full bg-green-100">
+                <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl mb-2">
+                Email Your Query
+              </h2>
+              <p className="text-slate-600">
+                Have questions? We're here to help. Send us an email and we'll get back to you promptly.
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <a
+                href="mailto:info.rentpmt@gmail.com"
+                className="inline-flex items-center gap-3 rounded-lg bg-green-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-green-700 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                info.rentpmt@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-slate-50 py-5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -426,7 +458,7 @@ const jsonLd = {
             {/* Logo and Copyright */}
             <div className="flex flex-col items-center md:items-start gap-4">
               <div className="flex items-center gap-3">
-                <Image
+            <Image
                   src="/logo.svg"
                   alt="RentPMT Logo"
                   width={40}
@@ -437,6 +469,17 @@ const jsonLd = {
               <p className="text-sm text-slate-600">
                 © 2026 RentPMT LLC. All rights reserved.
               </p>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <svg className="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a 
+                  href="mailto:info.rentpmt@gmail.com"
+                  className="text-green-700 hover:text-green-800 font-medium"
+                >
+                  info.rentpmt@gmail.com
+                </a>
+              </div>
             </div>
 
             {/* Trusted Partners Section */}
@@ -444,12 +487,12 @@ const jsonLd = {
               <h3 className="text-sm font-semibold text-slate-900 mb-4 text-center md:text-left">Trusted Partners</h3>
               <a
                 href="https://predictableproperty.com"
-                target="_blank"
-                rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                 className="text-sm text-green-700 hover:text-green-800 font-medium"
-              >
+          >
                 Predictable Property LLC
-              </a>
+          </a>
             </div>
           </div>
         </div>
