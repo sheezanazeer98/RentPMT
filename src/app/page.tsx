@@ -102,11 +102,11 @@ const jsonLd = {
                 </svg>
                 Trusted Payment Gateway
               </div>
-              <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-5xl">
                 Trusted Rental Payment
-                <span className="block bg-gradient-to-r from-green-600 to-slate-700 bg-clip-text text-transparent">
+                <h1 className=" bg-gradient-to-r  from-green-600 to-slate-700 bg-clip-text text-transparent">
                   Processing
-                </span>
+                </h1>
           </h1>
               <p className="mx-auto lg:mx-0 mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
                 Secure, verified payment gateway ensuring integrity in rental transactions for landlords and tenants
@@ -260,7 +260,7 @@ const jsonLd = {
           <div className="mx-auto max-w-4xl">
             <div className="mb-6 text-center">
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Verified Property Management Partner
+              Our Trusted Partner
               </h2>
             </div>
 
