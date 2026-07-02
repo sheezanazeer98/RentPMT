@@ -103,11 +103,11 @@ const jsonLd = {
                 Trusted Payment Gateway
               </div>
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-5xl">
-                Trusted Rental Payment
-                <h1 className=" bg-gradient-to-r  from-green-600 to-slate-700 bg-clip-text text-transparent">
+                Trusted Rental Payment{" "}
+                <span className="bg-gradient-to-r from-green-600 to-slate-700 bg-clip-text text-transparent">
                   Processing
-                </h1>
-          </h1>
+                </span>
+              </h1>
               <p className="mx-auto lg:mx-0 mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
                 Secure, verified payment gateway ensuring integrity in rental transactions for landlords and tenants
               </p>
@@ -419,7 +419,7 @@ const jsonLd = {
         </div>
       </section>
 
-      {/* Email Query Section */}
+      {/* Contact Section */}
       <section className="py-16 sm:py-20 bg-gradient-to-br from-green-50/50 to-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="  p-8 sm:p-10 ">
@@ -430,16 +430,25 @@ const jsonLd = {
                 </svg>
               </div>
               <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl mb-2">
-                Email Your Query
+                Contact Us
               </h2>
               <p className="text-slate-600">
-                Have questions? We're here to help. Send us an email and we'll get back to you promptly.
+                Have questions? For contact queries, reach us by phone or email and we&apos;ll get back to you promptly.
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+              <a
+                href="tel:+15708771416"
+                className="inline-flex items-center gap-3 rounded-lg bg-green-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-green-700 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                570 877 1416
+              </a>
               <a
                 href="mailto:info.rentpmt@gmail.com"
-                className="inline-flex items-center gap-3 rounded-lg bg-green-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-green-700 transition-colors"
+                className="inline-flex items-center gap-3 rounded-lg border-2 border-green-600 bg-white px-8 py-4 text-base font-semibold text-green-700 shadow-sm hover:bg-green-50 transition-colors"
               >
                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -469,16 +478,30 @@ const jsonLd = {
               <p className="text-sm text-slate-600">
                 © 2026 RentPMT LLC. All rights reserved.
               </p>
-              <div className="flex items-center gap-2 text-sm text-slate-600">
-                <svg className="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <a 
-                  href="mailto:info.rentpmt@gmail.com"
-                  className="text-green-700 hover:text-green-800 font-medium"
-                >
-                  info.rentpmt@gmail.com
-                </a>
+              <div className="flex flex-col items-center md:items-start gap-2 text-sm text-slate-600">
+                <div className="flex items-center gap-2">
+                  <svg className="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <a
+                    href="tel:+15708771416"
+                    className="text-green-700 hover:text-green-800 font-medium"
+                  >
+                    570 877 1416
+                  </a>
+                  <span className="text-slate-500">(contact queries)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <svg className="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <a 
+                    href="mailto:info.rentpmt@gmail.com"
+                    className="text-green-700 hover:text-green-800 font-medium"
+                  >
+                    info.rentpmt@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
 
