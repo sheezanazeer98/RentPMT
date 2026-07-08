@@ -436,48 +436,25 @@ const jsonLd = {
                 Have questions? For contact queries, reach us by phone or email and we&apos;ll get back to you promptly.
               </p>
             </div>
-            <div className="flex flex-col items-center gap-6">
-              <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                <a
-                  href="tel:+15704911604"
-                  className="inline-flex items-center gap-3 rounded-xl bg-green-600 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-green-600/20 hover:bg-green-700 transition-colors"
-                >
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  (570) 491-1604
-                </a>
-                <a
-                  href="mailto:info.rentpmt@gmail.com"
-                  className="inline-flex items-center gap-3 rounded-xl border border-green-200 bg-white px-8 py-4 text-base font-semibold text-green-700 shadow-sm hover:border-green-300 hover:bg-green-50 transition-colors"
-                >
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  info.rentpmt@gmail.com
-                </a>
-              </div>
-
-              <div className="w-full max-w-md rounded-xl border border-red-200/80 bg-gradient-to-r from-red-50 to-white px-5 py-4 shadow-sm">
-                <div className="flex items-center justify-center gap-3">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-red-100">
-                    <svg className="h-4 w-4 text-red-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                  </div>
-                  <div className="text-left">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-red-700/80">
-                      Emergency Contact
-                    </p>
-                    <a
-                      href="tel:+15708771416"
-                      className="text-base font-semibold text-red-700 hover:text-red-800 transition-colors"
-                    >
-                      (570) 877-1416
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+              <a
+                href="tel:+15704911604"
+                className="inline-flex items-center gap-3 rounded-xl bg-green-600 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-green-600/20 hover:bg-green-700 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                (570) 491-1604
+              </a>
+              <a
+                href="mailto:info.rentpmt@gmail.com"
+                className="inline-flex items-center gap-3 rounded-xl border border-green-200 bg-white px-8 py-4 text-base font-semibold text-green-700 shadow-sm hover:border-green-300 hover:bg-green-50 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                info.rentpmt@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -517,18 +494,6 @@ const jsonLd = {
                       (570) 491-1604
                     </a>
                     <span className="text-slate-500">(contact queries)</span>
-                  </div>
-                  <div className="flex items-center gap-2.5">
-                    <svg className="h-4 w-4 text-red-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    <a
-                      href="tel:+15708771416"
-                      className="font-medium text-red-700 hover:text-red-800 transition-colors"
-                    >
-                      (570) 877-1416
-                    </a>
-                    <span className="text-slate-500">(emergency contact)</span>
                   </div>
                   <div className="flex items-center gap-2.5">
                     <svg className="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
